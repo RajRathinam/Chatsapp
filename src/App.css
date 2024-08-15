@@ -7,8 +7,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .container{
   width: 90vw;
   height: 90vh;
-  background-color: rgba(23, 35, 58, 0.699);
-  backdrop-filter: blur(19px) saturate(180%);
+  background-color: rgba(23, 35, 58, 0);
+  backdrop-filter: blur(10px) saturate(180%);
   border-radius: 12px;
   border: 1px solid rgba(100, 148, 237, 0.267);
   display: flex;

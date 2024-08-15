@@ -3,15 +3,18 @@ import './App.css';
 import List from "./components/list/List"
 import Chat from "./components/chats/Chat"
 import Details from "./components/details/Details"
+import Login from "./components/login/Login"
+import Notification from './components/notification/Notification';
 
 function App() {
-  return (
-    
-    <div className="container">
-      <List/>
-      <Chat/>
-      <Details/>
 
+  const user = "i";
+
+  return (
+    <div className="container">
+    
+{user ? (  <><List/><Chat/><Details/></>):(<Login/>)}
+<Notification/>
     </div>
   );
 }

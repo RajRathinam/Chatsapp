@@ -5,7 +5,7 @@ const Details = () => {
   return (
     <div className='detail'>
       <div className="user">
-        <img src="./avatar.png" alt="" />
+        <img src="./raj.jpg" alt="" />
         <h2>Raj Rathinam</h2>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
@@ -43,6 +43,20 @@ const Details = () => {
             </div>
             <img src="./download.png" alt="" className='icon'/>
           </div>
+          <div className="photoItem">
+            <div className="photoDetails">
+              <img src="./pic.jpeg" alt="" />
+              <span>picture 1</span>
+            </div>
+            <img src="./download.png" alt="" className='icon'/>
+          </div>
+          <div className="photoItem">
+            <div className="photoDetails">
+              <img src="./pic.jpeg" alt="" />
+              <span>picture 1</span>
+            </div>
+            <img src="./download.png" alt="" className='icon'/>
+          </div>
         </div>
         <div className="option">
           <div className="title">
@@ -51,6 +65,7 @@ const Details = () => {
           </div>
         </div>
         <button>Block Users</button> 
+        <button className='logOut'>Log out</button> 
       </div>
       
     </div>

@@ -4,7 +4,7 @@ const UserInfo = () => {
   return (
     <div className='userInfo'>
       <div className="user">
-        <img src="./avatar.png" alt=""/>
+        <img src="./raj.jpg" alt=""/>
         <h2>Chats</h2>
       </div>
       <div className="icons">
