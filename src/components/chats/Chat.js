@@ -22,7 +22,7 @@ setOpen(false)
     <div className='chat'>
       <div className="top">
         <div className="user">
-          <img src="./avatar.png" alt="" />
+          <img src="./raj.jpg" alt="" />
           <div className="texts">
             <span>Raj Rathinam</span>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -90,7 +90,7 @@ setOpen(false)
           <img src="./camera.png" alt="" />
           <img src="./mic.png" alt="" />
         </div>
-        <input type="text" placeholder='Type a message...' value={text} onChange={e=>setText(e.target.value)}/>
+        <input type="textarea" placeholder='Type a message...' value={text} onChange={e=>setText(e.target.value)}/>
         <div className="emoji">
           <img src="./emoji.png" alt="" onClick={() => setOpen((prev) => !prev)}/>
           <div className="picker">

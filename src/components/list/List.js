@@ -8,6 +8,7 @@ const List = () => {
     <div className='list'>
       <UserInfo/>
       <ChatList/>
+      <i><img src=".\ai-loader.gif" /></i>
     </div>
   )
 }
